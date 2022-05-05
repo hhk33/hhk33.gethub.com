@@ -1,0 +1,260 @@
+.bk {
+    position: absolute;
+    width: 1256px;
+    height: 1204px;
+    /* background: url(../img/ex05.png) no-repeat; */
+    background-size: 50% 50%;
+    opacity: .6;
+}
+
+.mh {
+    position: absolute;
+    top: 31px;
+    left: 71px;
+    width: 525px;
+    height: 194px;
+}
+
+.img {
+    width: 250px;
+    height: 160px;
+    background: url(../img/p1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hl {
+    position: absolute;
+    top: -3px;
+    left: 270px;
+}
+
+.hl>h1 {
+    font-size: 16px;
+}
+
+.hl>h1::before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background-color: #0169b2;
+    display: block;
+    position: relative;
+    bottom: -25px;
+}
+
+.hl>p {
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.mh>input {
+    position: absolute;
+    top: 130px;
+    left: 270px;
+    width: 100px;
+    height: 24px;
+    background-color: #0169b2;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    padding: 0 0 0 15px;
+}
+
+.mh>span {
+    position: absolute;
+    left: 350px;
+    top: 130px;
+    color: white;
+}
+
+.mb {
+    position: absolute;
+    top: 190px;
+    left: 71px;
+    width: 525px;
+    height: 194px;
+    font-size: 12px;
+}
+
+.b-title>h1 {
+    padding: 25px 0 12px 0;
+    font-size: 16px;
+    color: #0169b2;
+    border-bottom: 2px solid #c6c6c6;
+}
+
+.b-title>h1::after {
+    content: "";
+    width: 2px;
+    height: 10px;
+    background-color: #0169b2;
+    position: relative;
+    display: inline-block;
+    left: 9px;
+}
+
+.b-title>h1+span {
+position: absolute;
+top: 38px;
+left: 55px;
+}
+
+.b-title>input {
+    position: absolute;
+    top: 37px;
+    left: 426px;
+    width: 76px;
+    height: 20px;
+    background-color: #0169b2;
+    border-radius: 3px;
+    color: white;
+    text-align: left;
+    padding: 0 0 0 5px;
+}
+
+.b-title>input+span {
+    position: absolute;
+    top: 37px;
+    left: 490px;
+    color: white;
+}
+
+.b-line {
+    margin: 20px 0 -5px 0;
+    padding: 0 0 11px 0;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.sp {
+    width: 60px;
+    margin: 0 8px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: #5aae73;
+}
+
+#t1 {
+background-color: #019ee3;
+}
+
+.text::after {
+    content: "";
+    height: 1px;
+    width: 180px;
+    position: relative;
+    background-color: #c6c6c6;
+    display: block;
+    top: -4px;
+    left: 147px;
+}
+
+.mf {
+    position: absolute;
+    top: 404px;
+    width: 630px;
+    height: 210px;
+    background-color: #f8f8f8;
+}
+
+.f-title {
+    padding: 5px 35px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0169b2;
+}
+
+.t-l {
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+
+.t-l::before {
+    content: "";
+    width: 3px;
+    height: 15px;
+    display: block;
+    position:absolute;
+    top: 2px;
+    left: -8px;
+    background-color: #0169b2;
+
+}
+
+.t-r {
+    position: absolute;
+    top: 5px;
+    left: 340px;
+}
+
+.t-r::before {
+    content: "";
+    width: 3px;
+    height: 15px;
+    display: block;
+    position:absolute;
+    top: 2px;
+    left: -8px;
+    background-color: #0169b2;
+}
+
+.box1 {
+    width: 270px;
+    height: 126px;
+    margin: 23px 25px;
+    padding: 15px 0;
+    border: 1px solid #c6c6c6;
+    text-align: center;
+    
+}
+
+.l2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0169b2;
+    margin: 0 0 8px 0;
+}
+
+.l3 , .l4{
+    font-size: 12px;
+}
+
+.l5 {
+    margin: 15px 0;
+    font-size: 12px;
+    color: #0169b2;
+}
+
+.box2 {
+    position: absolute;
+    top: 10px;
+    left: 306px;
+    width: 270px;
+    height: 157px;
+    margin: 23px 25px;
+    border: 1px solid #c6c6c6;
+    text-align: center;
+}
+
+.box2>input {
+    margin: 34px 0 12px 0;
+    width: 220px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #0169b2;
+    color: aliceblue;
+}
+
+.box2>span {
+    position: absolute;
+    top: 40px;
+    left: 225px;
+    color: white;
+}
+
+.l6 {
+    font-size: 12px;
+    margin: -2px 0;
+}

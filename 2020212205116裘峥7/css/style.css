@@ -1,0 +1,276 @@
+body {
+    padding: 20px;
+    width: 990px;
+}
+
+.m-tl {
+    width: 1000px;
+    border-bottom: 5px solid #006699;
+}
+
+.m-tl> .ui-grid-2 ,
+.m-tl> .ui-grid-21 {
+    margin-bottom: 0;
+}
+
+header .m-tab span {
+    display: block;
+    text-align: center;
+    padding: 4px 10px 0;
+    margin-top: 5px;
+    border-radius: 3px 3px 0 0;
+    background-color: #006699;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+header .m-tip span {
+    text-align: center;
+    padding: 3px 5px 3px 5px ;
+    margin:  0 7px 0 -3px;
+    border-radius: 3px ;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 14px;
+}
+
+header .m-fun span {
+    display: block;
+    text-align: right;
+    width: 80px;
+    text-align: center;
+    padding: 1px 0 ;
+    border-radius: 3px ;
+    border: 1px solid #c8c8c8;
+    background-color: #f3f3f3;
+    color: #002cbd;
+}
+
+header .m-bd {
+    width: 978px;
+    padding: 10px 10px 0 10px;
+    background-color: #fbfbfb;
+    border: 1px solid #c8c8c8;
+    border-bottom: none;
+}
+
+header .m-bd .red ,
+header .m-bd .black,
+section .blue{
+    color: red;
+    font-weight: bold;
+}
+
+header .m-bd .black
+{
+    color: black;
+}
+
+section .blue {
+    color: #002cbd;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+header .m-bd .strong {
+    font-size: 15px;
+}
+
+header .m-ft {
+    background-color: #fffbde;
+    border: 1px solid #c8c8c8;
+}
+
+header .m-ft img {
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+
+header .m-ft .ui-grid-23,
+header .m-ft .ui-grid-2,
+section > .m-sta1 > .ui-grid-8 {
+    margin:  4px 2px;
+    text-align: right;
+    color: #002cbd;
+    text-decoration: underline;
+}
+
+body .m-at {
+    margin-top: 10px;
+}
+
+body .m-at .ui-grid-17,
+body .m-at .ui-grid-2 {
+    text-align: center;
+    margin-right: 3px;
+    padding-right: 7px;
+    color: #607a90;
+    background-color: #cedce8;
+}
+
+section >.m-at :nth-child(5) {
+    margin-right: 0;
+}
+
+section > .m-sta1 {
+    background-color: #f3f3f3;
+    margin-top: -8px;
+    border: 1px solid #c8c8c8;
+}
+
+section > .m-sta1 > .sta-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section > .m-sta1 >.sta-weather {
+    text-align: right;
+}
+
+section > .m-sta1 > .ui-grid-11,
+section > .m-sta1 > .ui-grid-6,
+section > .m-sta1 > .ui-grid-2,
+section > .m-sta1 > .ui-grid-8 {
+    margin: 1px 3px;
+}
+
+section > .m-inf1 {
+    padding: 10px 0;
+} 
+
+section .m-inf1 .sta-time .black {
+    font-weight: bold;
+    display: block;
+}
+
+section .m-inf1 .sta-time  {
+    text-align: center;
+}
+
+section .m-inf1 .sta-time::after,
+section .m-inf1 .sta-direction::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 2px;
+    height: 55px;
+    top: 222px;
+    left: 256px;
+    background-color: #96c7d8;
+}
+
+section .m-inf1 .sta-direction  {
+    color: #0069a3;
+    font-weight: bold;
+    margin: 4px 10px;
+}
+section .m-inf1 .sta-direction::before{
+    left: 261px;
+}
+
+section .m-inf1 .sta-direction .sta-way  {
+    color: #996600;
+    margin-right: 12px;
+}
+
+section .m-inf1 .sta-direction div {
+    margin-left: 58px;
+}
+
+section .m-inf1 .sta-time .sta-direction {
+    text-align: left;
+}
+
+section .m-inf1 .sta-time .sta-direction .sta-way span {
+    display: inline-block;
+}
+
+section .m-inf1 .ui-grid-11 {
+    margin-right: 0;
+}
+
+section .m-inf1 .ui-grid-2 {
+    display: inline-block;
+    height: 35px;
+    width: 80px;
+    padding:10px 0;
+    margin: -10px 0 0 0px;
+    border-left: 1px solid #c8c8c8;
+}
+
+section .m-inf1 .ui-grid-2:last-child {
+    margin-left: -5px;
+}
+
+section .m-coat {
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section .m-sta1:nth-child(4),
+section .m-sta1:nth-child(6){
+    margin-top: -12px;
+    padding-top: 10px;
+}
+
+section .sta-spend {
+    text-align: center;
+}
+
+section .sta-position {
+    position: relative;
+    top: 8px;
+    left: 20px;
+    font-weight: bold;
+}
+
+section .m-sta1:nth-child(4) .sta-content,
+section .m-sta1:nth-child(6) .sta-content{
+    position: relative;
+    top: -20px;
+    margin-bottom: -10px;
+}
+
+section .m-inf1:nth-child(5) .ui-grid-2 {
+    text-align: center;
+}
+
+section .m-inf1:nth-child(5) .sta-direction .sta-way  {
+    color: #0099ff;
+}
+
+section .m-inf1:nth-child(5) .sta-direction div {
+    margin-left: 65px;
+    width: 70px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    background-color:#00428c ;
+}
+
+section .m-inf1:nth-child(5) .sta-time::after,
+section .m-inf1:nth-child(5) .sta-direction::before {
+    top: 337px;
+}
+
+section .list {
+    position: absolute;
+    top: 339px;
+    left: 258px;
+}
+
+section li {
+    list-style: none;
+    display: block;
+    width: 4px;
+    height: 10px;
+    margin-bottom: 10px;
+    background-color: #96c7d8;
+}
+
+section .m-sta1 img {
+    margin-top: 3px;
+}

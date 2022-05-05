@@ -1,0 +1,634 @@
+li {
+    list-style: none;
+}
+
+.project1{
+    width: 380px;
+    background-color: #e7e7e7;
+}
+
+.project1 .top {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 17px;
+    border-bottom: 1px solid #000;
+    background-color: #06c1ae;
+}
+
+.project1 .top .line {
+    padding-right: 0px;
+    margin-top: 8px;
+}
+
+.project1 .top .line span:nth-child(2) {
+    font-size: 12px;
+    color: rgba(255, 255, 255,0.7);
+}
+
+.project1 .top .search span ,
+.project2 .search>span{
+    display: inline-block;
+    background: url(../img/search.png) no-repeat center;
+    background-size: 60%;
+    width: 30px;
+    height: 30px;
+    border-radius:  5px 0 0 5px;
+    background-color: rgba(0, 0, 0,0.15);
+}
+
+.project1 .top .search input {
+    position:absolute;
+    width: 180px;
+    height: 30px;
+    padding: 0;
+    color: rgba(255, 255, 255,0.5);
+    background-color: rgba(0, 0, 0,0.15);
+    border-radius:  0 5px 5px 0;
+    border: none;
+}
+
+.project1 .top .user {
+    margin-top: -6px;
+    line-height: 10px;
+}
+
+.project1 .top .user img {
+    width: 25px;
+}
+
+.project1 .top .user span {
+    margin-left: 4px;
+}
+
+.project1 .menu, 
+.project1 .show,
+.project1 .show2,
+.project1 .list{
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a2a2a2;
+    color: #a2a2a2;
+}
+
+.project1 .menu .con{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project1 .menu .con div {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+} 
+
+.project1 .show ,
+.project1 .show2,
+.project1 .list{
+    position: relative;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #a2a2a2;
+    font-weight: bold;
+}
+
+.project1 .show .matrix,
+.project1 .show2 .matrix ,
+.project1 .list .matrix{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #c8c8c8;
+    border: 2px solid #a2a2a2;
+}
+
+.project1 .show > div:nth-child(1){
+    border-right: 1px solid #c8c8c8;
+}
+
+.project1 .show > div:nth-child(1) .matrix{
+    width: 90px;
+    height: 90px;
+}
+
+.project1 .show > div:nth-child(3) {
+    border-right: 1px solid #c8c8c8;;
+}
+
+.project1 .show > div:nth-child(3){
+   position: absolute;
+   left: 127px;
+   top: 80px;
+}
+
+.project1 .show > div:nth-child(4){
+    position: absolute;
+    left: 252px;
+    top: 80px;
+ }
+
+ .project1 .show > div:nth-child(2) {
+     height: 67px;
+     border-bottom: 1px solid #c8c8c8;;
+ }
+
+.project1 .show > div:nth-child(2) .matrix{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 280px;
+    top:10px
+}
+
+.project1 .show > div span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.project1 .introduction {
+    font-weight: normal;
+}
+
+.project1 .show2 .matrix {
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+
+.project1 .show2 >div:nth-child(1) {
+    border-right: 1px solid #c8c8c8;
+}
+
+.project1 .show2 >div :first-child {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.project1 .list li {
+    position: relative;
+    border-top:1px solid #c8c8c8 ;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.project1 .list li .tag> div:nth-child(2) {
+    float: right;
+}
+
+.project1 .list .title {
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.project1 .list li .row :nth-child(-n+3) {
+    padding: 0;
+}
+
+.project1 .list li> :nth-child(2){
+    margin-top: 15px;
+    color: #000;
+    margin-bottom: -3px;
+}
+
+.project1 .list .matrix {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    margin-top: 14px;
+    margin-left: 0;
+}
+
+.project1 .list li .row {
+    margin-top: 10px;
+}
+
+.project1 .list li .row >:first-child {
+    color: #06c1ae;
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+.project1 .list li .row >:first-child>span {
+    font-size: 18px;    
+    font-weight:500;
+}
+
+.project1 .list li .row .discount {
+    width: 52px;
+    height: 20px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.project1 .list li .row >:last-child {
+    text-align: right;
+}
+
+.project1 .list li:nth-child(-n+3) .row >:last-child {
+    text-align: right;
+    margin-left: 36px;
+}
+
+.project1 .bottom {
+padding-top: 10px;
+ margin-bottom: 200px;
+ height: 40px;
+ border-bottom: 1px solid #c8c8c8;
+ color: #06c1ae;
+ background-color: #a0c5e8;
+ font-weight: 500;
+}
+
+.project1 .list li .tag {
+    position: absolute;
+    top: 27px;
+    left: 30px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    transform: rotate(45deg);
+    background-color: #06c1ae;
+    color: #fff;
+}
+
+.project1 .list li .tag>div {
+    border: 9px solid;
+    border-bottom-color: transparent;
+}
+
+.project1 .list li .tag>div:first-child {
+    float: left;
+    border-right-color: transparent;
+}
+
+.project1 .list li .tag>div:last-child {
+    float: right;
+    border-left-color: transparent;
+}
+
+.project2 {
+    width: 1210px;
+    position: relative;
+}
+
+.project2 .top {
+    position: relative;
+    padding: 10px 70px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #018ceb;
+}
+
+.project2 .top .login{
+    text-align: right;
+}
+
+.project2 .top .line>div {
+    height: 30px;
+    line-height: 30px;
+}
+
+.project2 .top .line>div:first-child {
+    width: 52px;
+    margin-right: 16px;
+    border-radius: 5px;
+    background-color: #0169b0;
+}
+
+.project2 .top .line>div:nth-child(2) span{
+    position: relative;
+    left: 5px;
+    display: inline-block;
+    border: 5px solid transparent;
+    border-top-color:#fff ;
+}
+
+.project2 .top .line .search {
+    position: relative;
+    left: 5px;
+    text-align: right;
+}
+
+.project2 .top .line .search .list {
+    margin-right: -5px;
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    color: #000;
+    border-radius: 2px 0 0  2px;
+    background-color: #f9f9f9;
+}
+
+.project2 .top .line .search .list span {
+    position: relative;
+    top:8px ;
+    left: 2px;
+    border: 4px solid transparent;
+    border-top-color: #c8c8c8;
+}
+
+.project2 .top .line .search input {
+    height: 25.5px;
+    border: none;
+}
+
+.project2 .search>span {
+    position: absolute;
+    top:2.3px ;
+    width: 25px;
+    height: 25px;
+    background: url(../img/search2.png) no-repeat center ;
+    background-size: 70%;
+    background-color: #fff;
+    border-radius: 0 2px 2px 0;
+}
+
+.project2 .line1 {
+    padding: 20px 40px;
+}
+
+.project2 .line1 .matrix,
+.project2 .col1 .matrix,
+.project2 .col2 .matrix {
+    width: 725px;
+    height: 300px;
+    background-color: #666;
+    border: 1px solid #a2a2a2;
+}
+
+.project2 .line1 .right {
+    margin-left: 25px;
+    width: 380px;
+    height: 300px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.project2 .line1 .right>:nth-child(1) {
+    margin : 40px 0 ;
+}
+
+.project2 .line1 .right>:nth-child(2) {
+    width: 100px;
+    height: 30px;
+    margin: 0 0 60px 130px;
+    border-radius: 3px;
+    background-color: #018ceb;
+} 
+
+.project2 .line1 .right>:nth-child(3) {
+    padding-top: 30px;
+    border-top: 1px dashed #666;
+}
+
+.project2 .line1 .right>:nth-child(n+3) {
+    color: #8e8e8e;
+}
+
+.project2 .line1 .right>:nth-child(n+3)>span {
+    margin: 0 30px;
+}
+
+.project2 .line1 .right>:nth-child(n+3)>span>span {
+    color: #018ceb;
+}
+
+.project2 .title {
+    margin: 0;
+    padding: 0px 20px;    
+}
+
+.project2 .title>:nth-child(2) {
+    padding-left: 95px;
+}
+
+.project2 .title>:nth-child(3) {
+    font-size: 12px;
+    text-align: right;
+}
+
+.project2 .col1 {
+    padding: 5px 40px;
+    width: 1325px;
+}
+
+.project2 .col1 .row {
+    position: relative;
+}
+
+.project2 .col1 .row1 >:nth-child(n) ,
+.project2 .col1 .row2 >:nth-child(n),
+.project2 .col1 .row4 >:nth-child(n){
+    height: 180px;
+}
+
+
+.project2 .col1 .row1 h5{
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.project2 .col1 .read {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.project2 .col1 .PPT {
+    width: 25px;
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+}
+
+.project2 .col1 .matrix,
+.project2 .col2 .matrix {
+    margin: 15px 10px 0 10px ;
+    width: 205px;
+    height: 100px;
+}
+
+.project2 .col1 .row div :nth-child(n) ,
+.project2 .col2 div :nth-child(n) {
+    margin-left: 5px;
+}
+
+.project2 .col1 .row3 >:nth-child(n){
+    height: 220px;
+}
+
+.project2 .col1 .row3 .matrix {
+    width: 325px;
+    height: 160px;
+}
+
+.project2 .col1 .row4 .circle {
+    position: relative;
+    top: -54px;
+    left: 7px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #bcbcbc;
+    border-radius: 12px;
+    background-color: #000;
+}
+
+.project2 .col1 .row4 .circle .play {
+    width: 0;
+    height: 0;
+    margin-top: 3px;
+    margin-left: 8px;
+    border: 6px solid transparent;
+    border-left-color:#ffffff ;
+}
+
+.project2 .col1 .row>:nth-child(n){
+    border-top: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+}
+
+.project2 .col1 .row>:nth-child(n):last-child {
+    border-right: 1px solid #c8c8c8;
+}
+
+.project2 .col1 .row5 .matrix {
+    float: left;
+}
+
+.project2 .col1 .row5 .read,
+.project2 .col1 .row6 .read {
+    width: 90%;
+    text-align: right;
+}
+
+.project2 .col2 {
+    position: absolute;
+    top: 440px;
+    left: 795px;
+    width: 1510px;
+    font-size: 12px;
+}
+
+.project2 .col2 >:nth-child(n) {
+    position: relative;
+    border: 1px solid #c8c8c8;
+    border-bottom: 3px solid #0169b0;
+    margin-bottom: 20px;
+}
+
+.project2 .col2 >:nth-child(n) >:nth-child(n){
+    margin-left: 30px;
+}
+
+.project2 .col2 .matrix {
+    width: 310px;
+
+}
+
+.project2 .col2 div .tag {
+    position: absolute;
+    top: 24px;
+    left: 250px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    transform: rotate(45deg);
+    color: #fff;
+    background-color: #0169b0;
+}
+
+.project2 .col2 div .tag span {
+    display: inline-block;
+    border: 10px solid #fff;
+    border-bottom-color:transparent ;
+}
+
+.project2 .col2 div .tag span:first-child {
+    float: left;
+    margin: 0px;
+    border-right-color:transparent ;
+}
+
+.project2 .col2 div .tag span:first-child {
+    float: left;
+    margin: 0px;
+    border-right-color:transparent ;
+}
+
+.project2 .col2 div .tag span:last-child {
+    float: right;
+    margin: 0px;
+    border-left-color:transparent ;
+}
+
+.project2 .col2 h6{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.project2 .col2 .row1 >:nth-child(n+3),
+.project2 .col2 .row2 >:nth-child(n+3) {
+   padding: 2px 0;
+}
+
+.project2 .col2 .read {
+    color: #8e8e8e;
+} 
+
+.project2 .col2 .row3 .introduction{
+    margin: 0 30px;
+    padding: 20px 0 15px 0;
+    border-bottom: 1px dashed #c8c8c8;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.project2 .col2 .row3 .introduction span {
+    color: #0169b0;
+    margin-left: 0px;
+}
+
+.project2 .col2 .row3 .introduction small {
+    margin-left: 170px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #8e8e8e;
+}
+
+.project2 .col2 .row3 .matrix {
+    width: 180px;
+    height: 100px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+}
+
+.project2 .col2 .row3 .line {
+    position: relative;
+    top: -40px;
+    left: 65px;
+    width: 180px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0,0.15);
+}

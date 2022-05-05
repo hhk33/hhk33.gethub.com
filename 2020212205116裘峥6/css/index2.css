@@ -1,0 +1,11 @@
+.index {
+    width: 390px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.pic {
+    height: 260px;
+    background-color: #ffffeb;
+}
+
